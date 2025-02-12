@@ -18,7 +18,6 @@ d3 = int(input())
 # Вывод минимального расстояния.
 print(minimal_distance(d1, d2, d3))
 
-
 # 2.
 # Схожие буквы.
 def same_letters(letters):
@@ -49,7 +48,6 @@ letter3 = input()
 
 print(same_letters([letter1, letter2, letter3]))
 
-
 # 3.
 # Переворатор.
 def reverse(sequence):
@@ -70,7 +68,6 @@ sequence = [int(i) for i in input().split()]
 
 print(reverse(sequence))
 
-
 # 4.
 # Более одного.
 def more_than_one(sequence):
@@ -87,7 +84,6 @@ def more_than_one(sequence):
 sequence = input().split()
 
 print(more_than_one(sequence))
-
 
 # 5.
 # Максимальная группа.
@@ -115,7 +111,6 @@ result = max_group_length(n)
 
 print(result)
 
-
 # 6.
 # Трудности перевода.
 def languages_intersection(languages):
@@ -133,7 +128,6 @@ n = int(input())
 languages = [set(input().split(', ')) for _ in range(n)]
 
 print(languages_intersection(languages))
-
 
 # 7.
 # Схожие слова.
@@ -160,7 +154,6 @@ n = int(input())
 words = [input().strip().lower() for _ in range(n)]
 
 print(find_similar_words(base_word, words))
-
 
 # 8.
 # Корпоративная почта.
@@ -204,7 +197,6 @@ new_users = [input().strip() for _ in range(m)]
 
 assigned_emails = assign_corporate_emails(existing_emails_list, new_users)
 print("\n".join(assigned_emails))
-
 
 # 9.
 # Файлы в файле.

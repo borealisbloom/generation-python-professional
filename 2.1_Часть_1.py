@@ -8,7 +8,6 @@ def hide_card(card_number):
 
 print(hide_card('905 678123 45612 56'))
 
-
 # 2.
 # Функция same_parity().
 # def same_parity(numbers):
@@ -43,7 +42,6 @@ def same_parity(numbers):
 
 print(same_parity([-7, 0, 67, -9, 70, -29, 90]))
 
-
 # 3.
 # Функция is_valid().
 # def is_valid(pin_code):
@@ -58,7 +56,6 @@ def is_valid(pin):
 
 print(is_valid('89abc1'))
 
-
 # 4.
 # Функция print_given().
 def print_given(*args, **kwargs):
@@ -69,7 +66,6 @@ def print_given(*args, **kwargs):
         print(f'{key} {kwargs[key]} {type(kwargs[key])}')
 
 print_given(1, [1, 2, 3], 'three', two=2)
-
 
 # 5.
 # Функция convert().
@@ -85,7 +81,6 @@ def convert(text):
 
 print(convert('ABCdef'))
 
-
 # 6.
 # Функция filter_anagrams().
 def filter_anagrams(word, words):
@@ -99,7 +94,6 @@ def filter_anagrams(word, words):
     return result
 
 print(filter_anagrams('отсечка', ['сеточка', 'стоечка', 'тесачок', 'чесотка']))
-
 
 # 7.
 # Функция likes().
@@ -118,7 +112,6 @@ def likes(users):
 
 print(likes(['Артур', 'Тимур', 'Руслан', 'Анри', 'Дима', 'Алиса']))
 
-
 # 8.
 # Функция index_of_nearest().
 def index_of_nearest(numbers, number):
@@ -130,7 +123,6 @@ def index_of_nearest(numbers, number):
         return -1
 
 print(index_of_nearest([7, 13, 3, 5, 18], 0))
-
 
 # 9.
 # Функция spell().
@@ -151,7 +143,6 @@ def spell(*args):
 
 words = ['Россия', 'Австрия', 'Австралия', 'РумыниЯ', 'Украина', 'КИТай', 'УЗБЕКИСТАН']
 print(spell(*words))
-
 
 # 10.
 # Функция choose_plural().
@@ -174,7 +165,6 @@ def choose_plural(amount, declensions):
     return f"{amount} {form}"
 
 print(choose_plural(8, ('яблоко', 'яблока', 'яблок')))
-
 
 # 11.
 # Функция get_biggest().
